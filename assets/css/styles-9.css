@@ -407,13 +407,18 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 -------------------------*/
 
 .polaroid {
-    border:12px solid #fff;
+    /* border:12px solid #fff;
     max-width: 85%;
-    box-shadow: 3px 5px 8px rgba(0,0,0,0.5);
-    /* -webkit-transform: rotate(-5deg);
-    transform: rotate(-5deg); */
+    box-shadow: 3px 5px 8px rgba(0,0,0,0.5); */
+    /* -webkit-transform: rotate(-5deg); */
+    transform: rotate(-5deg);
+    box-shadow: 0 1px 28px rgba(0, 0, 0, 0.3), 0 0 40px rgba(128, 128, 128, 0.1) inset;
+    border-color: #dedede;
+    border-radius: 5px;
+    /* height: 350px; */
+    position: relative;
+    top: 50px;
 }
-
 /*-----------------------
 --- Skills Styles ----
 -------------------------*/
@@ -1408,6 +1413,7 @@ color: white;
         max-width: 500px;
         margin:0 auto 35px;
         box-shadow: 3px 5px 8px rgba(0,0,0,0.5);
+        top:0;
         /* -webkit-transform: rotate(-5deg);
         transform: rotate(-5deg); */
     }
