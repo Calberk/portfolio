@@ -22,7 +22,8 @@
 		CSS
 		=============================================== -->    
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 		<link rel="stylesheet" href="assets/css/flexslider.css">
 		<link rel="stylesheet" href="assets/css/styles-9.css">
 		
@@ -129,7 +130,7 @@
 					
 						<h1 class="big-text">My Developer <br/>Story </h1>
 						
-						<p class="lead">My name is Edmund Park.  I am a web developer born and raised in Southern California.  I graduated from UC Berkeley with a degree in Legal studies.  My first experience with coding was creating a basic html website for an elective course.  I remember being amazed at how I was able to take my ideas and create something with what seemed to be a foreign language.       </p>
+						<p class="lead">My name is Edmund Park.  I am a web developer born and raised in Southern California.  I graduated from UC Berkeley with a degree in Legal studies.  My first experience with coding was creating a basic html website for an elective course.  I remember being amazed at how I was able to take my ideas and create something with the language I was learning.</p>
 					
 						<p>I am passionate about combining function, interaction and form to design for fitting user experiences that make people happy. I have a passion for creating challenging, intuitive and beautiful products. My design process is very hands-on and visual.</p>
 					
@@ -141,6 +142,134 @@
 		
 		</section>
 
+				<!-- ==============================================
+		PORTFOLIO
+		=============================================== -->
+		<section id="portfolio" class="add-padding">
+		
+			<div class="container">
+				
+				<h1 class="big-text text-center scrollimation fade-in">LATEST PROJECTS</h1>
+				
+				<!--==== Portfolio Filters ====-->
+				<div id="filter-portfolio">
+					<ul>
+					
+						<li class="scrollimation fade-right">
+							<a href="#" data-filter=".identity">Solo</a>
+						</li>
+						<li class="scrollimation fade-left">
+							<a href="#" data-filter=".logo">Group</a>
+						</li>
+
+					</ul>
+				</div>
+				<!--End portfolio filters -->
+				
+				<!--==== Project Preview ====-->
+				<div id="project-preview">
+				
+					<span class="close-preview">&times;</span>
+				
+					<div id="project-slider" class="flexslider"></div>
+					
+					<h1 id="project-title"></h1>
+				
+					<div id="project-content"></div>
+				
+				</div><!--Project Preview -->
+				
+			</div>
+		
+			<div class="container-fluid masonry-wrapper">
+			
+				<div id="projects-container row">
+				
+					<!-- ==============================================
+					SINGLE PROJECT ITEM
+					=============================================== -->	
+					<article class="project-item col-xl-4 col-lg-4 col-md-6">
+						
+						<img class="img-responsive project-image" src="assets/images/bookworms.png"  alt=""><!--Project thumb -->
+						
+						<div class="hover-mask">
+							<h2 class="project-title">Bookworms</h2><!--Project Title -->
+							<p>react with Redux Application</p><!--Project Subtitle -->
+						</div>
+						
+						<!--==== Project Preview HTML ====-->
+						
+						<div class="sr-only project-description" data-images="assets/images/bw.png,assets/images/bw1.png,assets/images/bw2.png" >
+						
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+							
+							<p>Phasellus porta eros vel lacus euismod consequat. Phasellus eleifend, nibh non feugiat hendrerit, lacus enim adipiscing eros, a pharetra erat neque eget est. Quisque vitae aliquet urna. Integer suscipit lectus eu enim porttitor fringilla. Ut blandit, urna in auctor euismod, arcu eros pharetra metus, a porta purus libero a nibh.</p>
+							<p>Nam eget urna pellentesque nisl ultrices dapibus. Mauris accumsan vehicula nisl, sed tempus mauris facilisis eu. Donec a iaculis nisi, quis malesuada justo. Pellentesque ut enim sit amet ipsum dignissim egestas. Morbi tincidunt rhoncus urna eget placerat.</p>
+							<p class="text-center"><a class="btn btn-color1" href="#external-link"><i class="fa fa-arrow-right"></i>Visit Website</a></p>
+						
+						</div>
+						
+					</article>
+					<!-- ==============================================
+					END PROJECT ITEM
+					=============================================== -->						
+					
+					<article class="project-item col-xl-4 col-lg-4 col-md-6">
+						
+						<img class="img-responsive project-image" src="assets/images/buzzerEater.png"  alt=""><!--Project thumb -->
+						
+						<div class="hover-mask">
+							<h2 class="project-title">Buzzer Eater</h2><!--Project Title -->
+							<p>Hackathon Group Project using APIs</p><!--Project Subtitle -->
+						</div>
+						
+						<!--==== Project Preview HTML ====-->
+						
+						<div class="sr-only project-description" data-images="assets/images/be.png,assets/images/be1.png,assets/images/be2.jpg" >
+						
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+							
+							<p>Phasellus porta eros vel lacus euismod consequat. Phasellus eleifend, nibh non feugiat hendrerit, lacus enim adipiscing eros, a pharetra erat neque eget est. Quisque vitae aliquet urna. Integer suscipit lectus eu enim porttitor fringilla. Ut blandit, urna in auctor euismod, arcu eros pharetra metus, a porta purus libero a nibh.</p>
+							<p>Nam eget urna pellentesque nisl ultrices dapibus. Mauris accumsan vehicula nisl, sed tempus mauris facilisis eu. Donec a iaculis nisi, quis malesuada justo. Pellentesque ut enim sit amet ipsum dignissim egestas. Morbi tincidunt rhoncus urna eget placerat.</p>
+							<div class="text-center">
+									<a class="btn btn-color1" href="https://github.com/Calberk/buzzer_eater"><i class="fab fa-github"></i>GitHub</a>
+								<a class="btn btn-color1" href="https://edmundjpark.com/buzzereater/"><i class="far fa-newspaper"></i>Live</a>
+							</div>
+							
+						</div>
+						
+					</article><!--End Project Item -->
+
+					<article class="project-item col-xl-4 col-lg-4 col-md-6">
+						
+						<img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
+						
+						<div class="hover-mask">
+							<h2 class="project-title">Clash & Match</h2><!--Project Title -->
+							<p>Mobile Responsive Card Game</p><!--Project Subtitle -->
+						</div>
+						
+						<!--==== Project Preview HTML ====-->
+						
+						<div class="sr-only project-description" data-images="assets/images/slide.png,assets/images/slide.png" >
+						
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+							
+							<p>Phasellus porta eros vel lacus euismod consequat. Phasellus eleifend, nibh non feugiat hendrerit, lacus enim adipiscing eros, a pharetra erat neque eget est. Quisque vitae aliquet urna. Integer suscipit lectus eu enim porttitor fringilla. Ut blandit, urna in auctor euismod, arcu eros pharetra metus, a porta purus libero a nibh.</p>
+							<p>Nam eget urna pellentesque nisl ultrices dapibus. Mauris accumsan vehicula nisl, sed tempus mauris facilisis eu. Donec a iaculis nisi, quis malesuada justo. Pellentesque ut enim sit amet ipsum dignissim egestas. Morbi tincidunt rhoncus urna eget placerat.</p>
+							
+						</div>
+						
+					</article><!--End Project Item -->
+
+				
+				</div><!-- End projects --> 
+				
+			</div><!-- End container --> 
+			
+		
+		</section>
+			
 		<!-- ==============================================
 		SERVICES
 		=============================================== -->
@@ -148,7 +277,7 @@
 		
 			<div class="container">
 				
-				<h1 class="section-title big-text scrollimation fade-up">SKILLS</h1>
+				<h1 class="section-title big-text scrollimation fade-up">SKILLS & TOOLS</h1>
 
 					<!-- ==== Portfolio Filters ==== -->
 					<!-- <div id="filter-works">
@@ -172,43 +301,153 @@
 				
 				<div class="row">
 				
-					<div class="col-sm-4 service-item color3 scrollimation scale-in">
+					<div class="col-xs-6 col-sm-4 col-md-3 service-item color3 scrollimation scale-in">
 					
-						<div class="service-icon skill-item strong"><i class="fa fa-lightbulb-o"></i></div>
+						<div class="service-icon skill-item strong"><i class="fab fa-js-square"></i></div>
 						
-						<h3>Brand Identity</h3>
-						
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.</p>
-						
-						
+						<h3>Javscript</h3>
+					
 					</div>
 				
-					<div class="col-sm-4 service-item color1 scrollimation scale-in d1">
+					<div class="col-xs-6 col-sm-4 col-md-3 service-item color1 scrollimation scale-in d1">
 					
-						<div class="service-icon skill-item experience"><i class="fa fa-desktop "></i></div>
+						<div class="service-icon skill-item experience"><svg class='fa' viewBox="0 0 128 128">
+								<path fill="#E44D26" d="M19.037 113.876l-10.005-112.215h109.936l-10.016 112.198-45.019 12.48z"></path><path fill="#F16529" d="M64 116.8l36.378-10.086 8.559-95.878h-44.937z"></path><path fill="#EBEBEB" d="M64 52.455h-18.212l-1.258-14.094h19.47v-13.762h-34.511l.33 3.692 3.382 37.927h30.799zM64 88.198l-.061.017-15.327-4.14-.979-10.975h-13.817l1.928 21.609 28.193 7.826.063-.017z"></path><path fill="#fff" d="M63.952 52.455v13.763h16.947l-1.597 17.849-15.35 4.143v14.319l28.215-7.82.207-2.325 3.234-36.233.335-3.696h-3.708zM63.952 24.599v13.762h33.244l.276-3.092.628-6.978.329-3.692z"></path>
+								</svg></i></div>
 						
-						<h3>Web Design</h3>
-						
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.</p>
-						
+						<h3>HTML5</h3>
+												
 						
 					</div>
 					
-					<div class="col-sm-4 service-item color2 scrollimation scale-in d2">
+					<div class="col-xs-6 col-sm-4 col-md-3 service-item color2 scrollimation scale-in d2">
 					
-						<div class="service-icon skill-item tools"><i class="fa fa-rocket"></i></div>
+						<div class="service-icon skill-item tools"><svg class='fa' viewBox="0 0 128 128">
+								<path fill="#1572B6" d="M18.814 114.123l-10.054-112.771h110.48l-10.064 112.754-45.243 12.543-45.119-12.526z"></path><path fill="#33A9DC" d="M64.001 117.062l36.559-10.136 8.601-96.354h-45.16v106.49z"></path><path fill="#fff" d="M64.001 51.429h18.302l1.264-14.163h-19.566v-13.831h34.681999999999995l-.332 3.711-3.4 38.114h-30.95v-13.831z"></path><path fill="#EBEBEB" d="M64.083 87.349l-.061.018-15.403-4.159-.985-11.031h-13.882l1.937 21.717 28.331 7.863.063-.018v-14.39z"></path><path fill="#fff" d="M81.127 64.675l-1.666 18.522-15.426 4.164v14.39l28.354-7.858.208-2.337 2.406-26.881h-13.876z"></path><path fill="#EBEBEB" d="M64.048 23.435v13.831000000000001h-33.407999999999994l-.277-3.108-.63-7.012-.331-3.711h34.646zM64.001 51.431v13.831000000000001h-15.209l-.277-3.108-.631-7.012-.33-3.711h16.447z"></path>
+								</svg></i></div>
 						
-						<h3>Rocket Science</h3>
-						
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.</p>
-						
+						<h3>CSS3</h3>
+												
 					</div>
+
+					<div class="col-xs-6 col-sm-4 col-md-3 service-item color3 scrollimation scale-in">
+			
+						<div class="service-icon skill-item strong"><svg class="fa" viewBox="0 0 128 128">
+								<path fill="#0868AC" d="M9.625 32.181c-11.029 15.851-9.656 36.476-1.231 53.32.2.404.41.801.617 1.198l.394.759.246.437.439.786c.262.461.53.92.804 1.379l.459.756c.304.491.615.976.933 1.46l.398.614c.439.655.888 1.309 1.352 1.951l.039.05.228.308c.401.553.814 1.099 1.232 1.639l.464.59c.373.469.752.935 1.138 1.399l.435.52c.518.61 1.047 1.217 1.586 1.812l.033.033.061.068c.527.575 1.066 1.137 1.612 1.699l.517.521c.423.426.853.845 1.287 1.262l.527.5c.58.547 1.166 1.083 1.764 1.607l.028.022.307.262c.527.456 1.063.909 1.603 1.353l.664.529c.441.354.887.702 1.336 1.044l.714.543c.496.365.995.724 1.499 1.075l.546.387.15.107c.478.329.967.646 1.456.963l.63.42c.75.474 1.51.943 2.279 1.396l.63.355c.565.326 1.134.646 1.71.959.312.168.632.327.946.488.407.213.811.429 1.225.636l.283.137.501.242c.641.306 1.287.607 1.94.897l.41.184c.748.327 1.502.641 2.263.941l.551.217c.704.271 1.418.539 2.135.791l.268.093c.787.275 1.581.53 2.381.779l.575.172c.814.245 1.619.538 2.458.693 53.339 9.727 68.833-32.053 68.833-32.053-13.013 16.953-36.111 21.425-57.996 16.446-.829-.187-1.633-.446-2.442-.685l-.609-.185c-.79-.242-1.573-.497-2.352-.765l-.323-.117c-.698-.245-1.387-.504-2.074-.769l-.582-.229c-.752-.297-1.5-.607-2.239-.931l-.447-.198c-.635-.288-1.263-.578-1.889-.879l-.546-.262c-.491-.239-.977-.493-1.461-.743-.324-.171-.654-.332-.975-.51-.592-.317-1.172-.646-1.751-.982l-.591-.33c-.769-.452-1.528-.921-2.28-1.397l-.615-.41c-.545-.351-1.088-.709-1.623-1.079l-.522-.367c-.516-.365-1.027-.734-1.534-1.109l-.679-.514c-.465-.355-.927-.713-1.384-1.082l-.617-.495c-.582-.479-1.156-.959-1.724-1.453l-.189-.159c-.614-.539-1.216-1.092-1.812-1.647l-.511-.491c-.441-.42-.875-.843-1.302-1.277l-.51-.509c-.543-.556-1.076-1.119-1.598-1.69l-.079-.084c-.552-.604-1.092-1.221-1.621-1.844l-.424-.504c-.394-.475-.785-.956-1.167-1.442l-.427-.532c-.459-.596-.908-1.189-1.347-1.794-12.15-16.574-16.516-39.432-6.805-58.204M43.862 18.825c-7.977 11.478-7.543 26.844-1.321 38.983 1.043 2.035 2.216 4.01 3.528 5.889 1.195 1.713 2.52 3.751 4.106 5.127.575.633 1.176 1.251 1.79 1.858l.472.465c.596.578 1.201 1.146 1.828 1.698l.074.064.018.018c.693.608 1.408 1.191 2.135 1.767l.485.378c.729.559 1.472 1.107 2.233 1.631l.065.049c.336.232.678.448 1.019.672l.483.319c.544.349 1.095.689 1.655 1.015l.235.136c.483.278.972.552 1.463.818l.521.271c.339.177.678.358 1.023.53l.155.07c.703.346 1.412.68 2.136.995l.472.194c.579.246 1.164.486 1.75.71l.75.275c.533.198 1.068.378 1.607.559l.727.233c.767.238 1.525.539 2.324.672 41.183 6.823 50.691-24.886 50.691-24.886-8.57 12.343-25.168 18.233-42.879 13.635-.787-.207-1.562-.431-2.333-.674l-.701-.227c-.548-.177-1.092-.365-1.631-.562l-.736-.274c-.592-.228-1.176-.462-1.756-.708l-.473-.2c-.727-.316-1.443-.65-2.148-.999-.363-.177-.72-.364-1.078-.548l-.622-.32c-.458-.248-.914-.506-1.363-.77l-.326-.185c-.558-.325-1.107-.661-1.651-1.008l-.498-.332c-.359-.232-.717-.469-1.069-.707-.759-.524-1.498-1.072-2.226-1.628l-.501-.395c-7.752-6.12-13.898-14.486-16.819-23.971-3.062-9.836-2.402-20.878 2.903-29.84M72.657 8.847c-4.702 6.92-5.164 15.514-1.901 23.156 3.441 8.113 10.491 14.476 18.72 17.495.339.125.679.237 1.022.354l.451.143c.485.152.966.329 1.467.424 22.74 4.394 28.908-11.669 30.549-14.034-5.402 7.779-14.482 9.646-25.623 6.942-.88-.213-1.847-.531-2.695-.832-1.088-.388-2.16-.83-3.201-1.329-1.978-.951-3.864-2.104-5.612-3.424-9.969-7.565-16.162-21.994-9.657-33.745"></path>
+								</svg></i></div>
+						
+						<h3>jQuery</h3>
 					
+					</div>
+
+					<div class="col-xs-6 col-sm-4 col-md-3 service-item color3 scrollimation scale-in">
+					
+							<div class="service-icon skill-item"><i class="fab fa-react"></i></div>
+							
+							<h3>React.js</h3>
+						
+						</div>
+
+					<div class="col-xs-6 col-sm-4 col-md-3 service-item color3 scrollimation scale-in">
+				
+						<div class="service-icon skill-item strong"><img class="fa redux" src="assets/images/redux.png" alt=""/></i></div>
+						
+						<h3>Redux</h3>
+					
+					</div>
+
+					<div class="col-xs-6 col-sm-4 col-md-3 service-item color3 scrollimation scale-in">
+				
+						<div class="service-icon skill-item"><i class="fab fa-node-js"></i></div>
+						
+						<h3>Node.js</h3>
+					
+					</div>
+
+					<div class="col-xs-6 col-sm-4 col-md-3 service-item color3 scrollimation scale-in">
+				
+						<div class="service-icon skill-item strong"><img class="fa php" src="assets/images/php.png" alt=""/></i></div>
+						
+						<h3>PHP</h3>
+					
+					</div>
+
+					
+					<div class="col-xs-6 col-sm-4 col-md-3 service-item color3 scrollimation scale-in">
+				
+							<div class="service-icon skill-item strong"><img class="fa materialize" src="assets/images/materialize.png" alt=""/></div>
+							
+							<h3>Materialize</h3>
+						
+						</div>
+
+					<div class="col-xs-6 col-sm-4 col-md-3 service-item color3 scrollimation scale-in">
+				
+						<div class="service-icon skill-item strong"><svg class="fa" viewBox="0 0 128 128">
+								<path fill="#5B4282" d="M75.701 65.603c-2.334-.768-5.694-.603-10.08-.603h-17.621v23h18.844c2.944 0 5.012-.315 6.203-.535 2.099-.376 3.854-1.104 5.264-1.982 1.409-.876 2.568-2.205 3.478-3.881.908-1.676 1.363-3.637 1.363-5.83 0-2.568-.658-4.54-1.975-6.436-1.316-1.896-3.141-2.965-5.476-3.733zM73.282 55.087c2.317-.688 4.064-1.89 5.239-3.487 1.176-1.598 1.763-3.631 1.763-6.044 0-2.286-.549-4.314-1.646-6.054s-2.662-2.413-4.699-3.056c-2.037-.641-5.53-.446-10.48-.446h-15.459v20h16.587c4.042 0 6.939-.38 8.695-.913zM126 18.625c0-9.182-7.443-16.625-16.625-16.625h-91.75c-9.182 0-16.625 7.443-16.625 16.625v91.75c0 9.182 7.443 16.625 16.625 16.625h91.75c9.182 0 16.625-7.443 16.625-16.625v-91.75zm-35.447 66.12c-1.362 2.773-3.047 4.911-5.052 6.415-2.006 1.504-4.521 2.78-7.544 3.548-3.022.769-6.728 1.292-11.113 1.292h-27.844v-69h27.42c5.264 0 9.485.609 12.665 2.002 3.181 1.395 5.671 3.497 7.474 6.395 1.801 2.898 2.702 5.907 2.702 9.071 0 2.945-.8 5.708-2.397 8.308-1.598 2.602-4.011 4.694-7.237 6.292 4.166 1.222 7.37 3.304 9.61 6.248 2.24 2.945 3.36 6.422 3.36 10.432 0 3.227-.681 6.225-2.044 8.997z"></path>
+								</svg></i></div>
+						
+						<h3>Bootstrap</h3>
+					
+					</div>
+
+					<div class="col-xs-6 col-sm-4 col-md-3 service-item color3 scrollimation scale-in">
+				
+						<div class="service-icon skill-item strong"><img class="fa mysql" src="assets/images/mysql2.png" alt=""/></div>
+						
+						<h3>MySQL</h3>
+					
+					</div>
+
+					<div class="col-xs-6 col-sm-4 col-md-3 service-item color3 scrollimation scale-in">
+				
+						<div class="service-icon skill-item strong"><img class="fa ajax" src="assets/images/ajax.png" alt=""/></div>
+						
+						<h3>AJAX</h3>
+					
+					</div>
+
+					<div class="col-xs-6 col-sm-4 col-md-3 service-item color3 scrollimation scale-in">
+				
+						<div class="service-icon skill-item strong"><img class="fa git" src="assets/images/git.png" alt=""/></div>
+						
+						<h3>Git</h3>
+					
+					</div>
+
+					<div class="col-xs-6 col-sm-4 col-md-3 service-item color3 scrollimation scale-in">
+				
+						<div class="service-icon skill-item strong"><i class="fa devicon-github-plain"></i></div>						
+						
+						<h3>GitHub</h3>
+					
+					</div>
+
+					<div class="col-xs-6 col-sm-4 col-md-3 service-item color3 scrollimation scale-in">
+			
+							<div class="service-icon skill-item strong"><img class="fa postman" src="assets/images/postman.png" alt=""/></div>
+							
+							<h3>Postman</h3>
+						
+						</div>
+	
+						<div class="col-xs-6 col-sm-4 col-md-3 service-item color3 scrollimation scale-in">
+					
+							<div class="service-icon skill-item strong"><img class="fa firebase" src="assets/images/firebase.png" alt=""/></div>
+							
+							<h3>Firebase</h3>
+						
+						</div>
+						
 				</div>
+
+					
 				
 			</div>
+				
+		</div>
 		
-		</section>
+	</section>
 
 	
 		<!-- ==============================================
@@ -261,135 +500,7 @@
 		
 		</section>
 			 -->
-		<!-- ==============================================
-		PORTFOLIO
-		=============================================== -->
-		<section id="portfolio" class="add-padding">
-		
-			<div class="container">
-				
-				<h1 class="big-text text-center scrollimation fade-in">PORTFOLIO</h1>
-				
-				<!--==== Portfolio Filters ====-->
-				<div id="filter-portfolio">
-					<ul>
-						<!-- <li class="active scrollimation fade-right d1 "> -->
-							<!-- <a href="#" data-filter="*">All</a> -->
-						</li>
-						<!-- <li class="scrollimation fade-right"> -->
-							<!-- <a href="#" data-filter=".identity">Solo</a> -->
-						</li>
-						<!-- <li class="scrollimation fade-left"> -->
-							<!-- <a href="#" data-filter=".logo">Group</a> -->
-						</li>
-						<!-- <li class="scrollimation fade-left d1"> -->
-							<!-- <a href="#" data-filter=".illustration"></a> -->
-						</li>
-					</ul>
-				</div>
-				<!--End portfolio filters -->
-				
-				<!--==== Project Preview ====-->
-				<div id="project-preview">
-				
-					<span class="close-preview">&times;</span>
-				
-					<div id="project-slider" class="flexslider"></div>
-					
-					<h1 id="project-title"></h1>
-				
-					<div id="project-content"></div>
-				
-				</div><!--Project Preview -->
-				
-			</div>
-		
-			<div class="container masonry-wrapper">
-			
-				<div id="projects-container">
-				
-					<!-- ==============================================
-					SINGLE PROJECT ITEM
-					=============================================== -->	
-					<article class="project-item">
-						
-						<img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
-						
-						<div class="hover-mask">
-							<h2 class="project-title">Bookworms</h2><!--Project Title -->
-							<p>react with Redux Application</p><!--Project Subtitle -->
-						</div>
-						
-						<!--==== Project Preview HTML ====-->
-						
-						<div class="sr-only project-description" data-images="assets/images/slide.png,assets/images/slide.png" >
-						
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
-							
-							<p>Phasellus porta eros vel lacus euismod consequat. Phasellus eleifend, nibh non feugiat hendrerit, lacus enim adipiscing eros, a pharetra erat neque eget est. Quisque vitae aliquet urna. Integer suscipit lectus eu enim porttitor fringilla. Ut blandit, urna in auctor euismod, arcu eros pharetra metus, a porta purus libero a nibh.</p>
-							<p>Nam eget urna pellentesque nisl ultrices dapibus. Mauris accumsan vehicula nisl, sed tempus mauris facilisis eu. Donec a iaculis nisi, quis malesuada justo. Pellentesque ut enim sit amet ipsum dignissim egestas. Morbi tincidunt rhoncus urna eget placerat.</p>
-							<p class="text-center"><a class="btn btn-color1" href="#external-link"><i class="fa fa-arrow-right"></i>Visit Website</a></p>
-						
-						</div>
-						
-					</article>
-					<!-- ==============================================
-					END PROJECT ITEM
-					=============================================== -->						
-					
-					<article class="project-item">
-						
-						<img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
-						
-						<div class="hover-mask">
-							<h2 class="project-title">Buzzer Eater</h2><!--Project Title -->
-							<p>Hakathon Project with APIs</p><!--Project Subtitle -->
-						</div>
-						
-						<!--==== Project Preview HTML ====-->
-						
-						<div class="sr-only project-description" data-images="assets/images/slide.png,assets/images/slide.png" >
-						
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
-							
-							<p>Phasellus porta eros vel lacus euismod consequat. Phasellus eleifend, nibh non feugiat hendrerit, lacus enim adipiscing eros, a pharetra erat neque eget est. Quisque vitae aliquet urna. Integer suscipit lectus eu enim porttitor fringilla. Ut blandit, urna in auctor euismod, arcu eros pharetra metus, a porta purus libero a nibh.</p>
-							<p>Nam eget urna pellentesque nisl ultrices dapibus. Mauris accumsan vehicula nisl, sed tempus mauris facilisis eu. Donec a iaculis nisi, quis malesuada justo. Pellentesque ut enim sit amet ipsum dignissim egestas. Morbi tincidunt rhoncus urna eget placerat.</p>
-							<p class="text-right"><a class="btn btn-color1" href="#external-link"><i class="fa fa-dribbble"></i>View on Dribbble</a></p>
-							
-						</div>
-						
-					</article><!--End Project Item -->
 
-					<article class="project-item">
-						
-						<img class="img-responsive project-image" src="assets/images/thumb.png"  alt=""><!--Project thumb -->
-						
-						<div class="hover-mask">
-							<h2 class="project-title">Clash & Match</h2><!--Project Title -->
-							<p>Mobile Responsive Card Game</p><!--Project Subtitle -->
-						</div>
-						
-						<!--==== Project Preview HTML ====-->
-						
-						<div class="sr-only project-description" data-images="assets/images/slide.png,assets/images/slide.png" >
-						
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
-							
-							<p>Phasellus porta eros vel lacus euismod consequat. Phasellus eleifend, nibh non feugiat hendrerit, lacus enim adipiscing eros, a pharetra erat neque eget est. Quisque vitae aliquet urna. Integer suscipit lectus eu enim porttitor fringilla. Ut blandit, urna in auctor euismod, arcu eros pharetra metus, a porta purus libero a nibh.</p>
-							<p>Nam eget urna pellentesque nisl ultrices dapibus. Mauris accumsan vehicula nisl, sed tempus mauris facilisis eu. Donec a iaculis nisi, quis malesuada justo. Pellentesque ut enim sit amet ipsum dignissim egestas. Morbi tincidunt rhoncus urna eget placerat.</p>
-							
-						</div>
-						
-					</article><!--End Project Item -->
-
-				
-				</div><!-- End projects --> 
-				
-			</div><!-- End container --> 
-			
-		
-		</section>
-			
 		<!-- ==============================================
 		TWITTER
 		=============================================== -->
@@ -420,16 +531,25 @@
 					<div class="col-sm-6 col-md-5 text-right scrollimation fade-up d1">
 					
 						<h1 class="big-text">Contact Me</h1>
+						<ul class="contact-info">
+							<li>
+								<div class="contact-title">LOCATION</div>
+								<div class="lead">Orange County, CA</div>
+							</li>
+							<li>
+								<div class="contact-title">Email Me</div>
+								<div class="lead">park.edmund@gmail.com</div>
+							</li>
+						</ul>
 						
-						<p class="lead">I am available for freelance. Can't wait for the next exciting project! Could be yours?</p>
 					
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt, dui ac porta.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt, dui ac porta.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt, dui ac porta.</p>
+ 
 					
 					</div>
 				
 					<!--=== Contact Form ===-->
 
-					<form id="contact-form" class="col-sm-6 col-md-offset-1 scrollimation fade-left d3" action="contact.php" method="post" novalidate>
+					<form id="contact-form" class="col-sm-6 col-md-offset-1 scrollimation fade-left d3" action="phpMailer/mail_handler.php" method="post" novalidate>
 						
 						<div class="form-group">
 						  <label class="control-label" for="contact-name">Name</label>
@@ -467,14 +587,14 @@
 		</section>
 			
 		<!-- ==============================================
-		MAP
+		FIXED SIDE ICONS
 		=============================================== -->
-		<!-- <section id="map">
+		<!-- <div class="icon-sidebar">
+			<a href="https://github.com/Calberk" target="_blank" id="github-link" title="GitHub"><i class="fab fa-github " style='font-size:24px'></i></a>
+			<a href="./assets/pdf/Resume_Developer.pdf" target="_blank" id="resume-link" title="Resume"><i class="fa fa-list-alt "></i></a>
+			<a href="https://www.linkedin.com/in/edmund-park-1a8538167/" target="_blank" id="linkedin-link" title="LinkedIn"><i class="fab fa-linkedin "></i></a>
+		</div> -->
 		
-			<div id="gmap"></div>
-		
-		</section>
-		 -->
 		<!-- ==============================================
 		FOOTER
 		=============================================== -->	
@@ -484,9 +604,9 @@
 			<div class="container">
 			
 				<ul class="social-links text-center">
-					<li><a href="#link" id="github-link" title="GitHub"><i class="fa fa-github fa-fw" style='font-size:24px'></i></a></li>
-					<li><a href="#link" id="resume-link" title="Resume"><i class="fa fa-list-alt fa-fw"></i></a></li>
-					<li><a href="#link" id="linkedin-link" title="LinkedIn"><i class="fa fa-linkedin fa-fw"></i></a></li>
+					<li><a href="https://github.com/Calberk" target="_blank" id="github-link" title="GitHub"><i class="fab fa-github " style='font-size:24px'></i></a></li>
+					<li><a href="./assets/pdf/Resume_Developer.pdf" target="_blank" id="resume-link" title="Resume"><i class="fa fa-list-alt "></i></a></li>
+					<li><a href="https://www.linkedin.com/in/edmund-park-1a8538167/" target="_blank" id="linkedin-link" title="LinkedIn"><i class="fab fa-linkedin "></i></a></li>
 				</ul>
 			
 				<p class="text-center">&copy; Edmund Park 2018 - All rights reserved</p>

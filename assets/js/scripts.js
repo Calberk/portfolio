@@ -5,9 +5,7 @@ $(document).ready(function() {
 	==============================================*/
 	
 	$(window).load(function(){
-		$('#page-loader').fadeOut(0,function(){
-			// loadGmap();
-		});
+		$('#page-loader').delay(350).fadeOut('slow');
 		
 	})	
 	
@@ -418,7 +416,7 @@ $(document).ready(function() {
 					}, speed);
 	}
 
-	var speed = 75;
+	var speed = 90;
 	var delay = $('.typing').text().length * speed + speed;
 	typeEffect($('.typing'), speed);
 
