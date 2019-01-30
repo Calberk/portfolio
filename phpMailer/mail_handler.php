@@ -2,7 +2,6 @@
 header('Access-Control-Allow-Origin: *');
 
 require_once('email_config.php');
-// require_once('phpmailer/PHPMailer/PHPMailerAutoLoad.php');
 require_once('src/Exception.php');
 require_once('src/PHPMailer.php');
 require_once('src/SMTP.php');
