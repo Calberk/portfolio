@@ -592,7 +592,7 @@ svg {
 
 #portfolio{
     /* padding-top:70px; */
-    background:transparent;
+    background:rgba(0,0,0,0.6);;
     color:#fff;
     overflow: hidden;
     position: relative;
@@ -748,6 +748,8 @@ svg {
 
 
 .project-item .hover-mask {
+    display: flex;
+    flex-direction: column;
     position:absolute;
     padding:0;
     width:100%;
@@ -768,7 +770,7 @@ svg {
 
 .project-item .hover-mask .project-title {
     color:#fff;
-    margin:90px 0 0;
+    margin-top: 25%;
     padding:10px;
     font-size:26px;
     line-height:34px;
@@ -888,10 +890,18 @@ svg {
 }
 
 #project-title{
-    margin:60px 0 30px;
+    width: 50%;
+    margin:60px auto 30px;
     text-transform: uppercase;
+    text-align: center;
     letter-spacing: 0.02em;
     word-spacing: 0.15em;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+#project-content p {
+    text-align: center;
 }
 
 #project-preview p{
@@ -903,7 +913,7 @@ svg {
     padding:0 5px;
     right: -5px;
     top:-50px;
-    font-size: 44px;
+    font-size: 60px;
     line-height: 44px;
     cursor: pointer;
 }
@@ -1359,7 +1369,7 @@ color: white;
     }
     
     .project-item .hover-mask .project-title {
-        margin-top:75px;
+        margin-top:25%;
     }
     
     #project-slider{
@@ -1504,6 +1514,7 @@ color: white;
     }
     
     #project-title{
+        width: 60%;
         font-size: 28px;
     }
     
@@ -1530,6 +1541,10 @@ color: white;
     
     .project-item .hover-mask .project-title {
         margin-top:70px;
+    }
+
+    #project-title{
+        width: 70%;
     }
 } 
 
