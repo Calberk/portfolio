@@ -30,7 +30,7 @@ $(document).ready(function() {
 		
 		$('.backstretch img').css({ 
 			'transform' : 'scale('+sf+')', 
-			'-webkit-transform' : 'scale('+sf+')'
+			'-webkit-transform' : 'scale('+sf+')',
 		});
 		
 		$('#home .container').css({ 'opacity' : (1.4 - st/400) });
