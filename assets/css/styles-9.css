@@ -119,8 +119,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 ----- Buttons ------
 --------------------*/
 
-.btn-color1,
-.btn-color2{
+.btn-color1,.btn-color2{
     padding: 10px 30px;
     color: #fff;
     opacity: 0.9;
@@ -137,6 +136,13 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     transition: all 0.3s ease-in-out;
 }
 
+.btn-color {
+    color: #003459;
+    font-size: 14px;
+    font-weight: 300;
+    outline: none;
+}
+
 .btn-color1:hover{
     color: black;
     opacity: 0.9;
@@ -144,7 +150,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     outline: none;
 }
 
-.btn-color1 i {
+.btn-color i, .btn-color1 i {
     margin-right:5px;
 }
 
@@ -168,7 +174,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     color:#fff;
 }
 
-.btn-color1 .fa,
+.btn-color .fa, .btn-color1 .fa,
 .btn-color2 .fa{
     margin-right: 15px;
 }
