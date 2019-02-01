@@ -3,7 +3,7 @@
 -------------------------*/
 
 body{
-	font-family: Raleway, Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
     font-size:16px;
     font-weight:300;
     color:white;
@@ -33,7 +33,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 }
 
 .big-text{
-    font-size:50px;
+    font-size:40px;
     font-weight:300;
     line-height:62px;
     letter-spacing:0.01em;
@@ -318,6 +318,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 #home{
     color: #fff;
     max-width: 100%;
+    background-size: contain;
 }
 
 .backstretch img{
@@ -390,8 +391,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     transition:all 0.2s ease-out;
     display: flex;
     justify-content: center;
-    flex-direction: row;
-    
+    flex-direction: row;  
 }
 
 .react {
@@ -530,6 +530,11 @@ svg {
     position: relative;
     top: 50px;
     right: 50px;
+}
+
+.about {
+    font-size:15px;
+    font-weight:400;
 }
 /*-----------------------
 --- Skills Styles ----
@@ -1040,7 +1045,7 @@ svg {
 
 #contact-form .form-control:focus {
     background:#fff;
-    border-bottom:3px solid #003459;
+    border:1px solid #003459;
     outline:none;
     box-shadow:none;
     -webkit-transition:border-color .3s ease-in;
@@ -1355,7 +1360,6 @@ svg {
 @media (max-width:991px){
     
     .big-text{
-        font-size:48px;
         line-height:52px;
         letter-spacing:0.01em;
         word-spacing: 0.15em;
@@ -1404,7 +1408,7 @@ svg {
     }
     
     .big-text{
-        font-size:38px;
+        font-size:32px;
         line-height:42px;
     }
     
