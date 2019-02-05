@@ -507,12 +507,12 @@ svg {
     transition:none;
 }
 
-.service-item:hover [class*=fa]{
+/* .service-item:hover [class*=fa]{
     -webkit-transform:scale(1.1);
     transform:scale(1.1);
     -webkit-transition:all 0.4s ease-out;
     transition:all 0.6s ease-out;
-}
+} */
 
 .service-item p{
     margin: auto;
