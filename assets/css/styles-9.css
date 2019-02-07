@@ -535,7 +535,7 @@ svg {
     /* height: 350px; */
     position: relative;
     top: 50px;
-    right: 50px;
+    /* right: 50px; */
 }
 
 .about {
@@ -1586,9 +1586,9 @@ svg {
         margin-bottom: 10px;
     }
 
-    .service-icon img {
+    /* .service-icon img {
         width: auto;
-    }
+    } */
 
     .service-icon {
         height: 130px;
@@ -1615,9 +1615,9 @@ svg {
         margin-top: 15px;
     }
     
-    .php {
+    .service-item .service-icon .php {
         height: 100px;
-        width: 160px;
+        width: 100%;
         margin-top: 20px;
     }
     
