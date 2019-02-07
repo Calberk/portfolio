@@ -3,7 +3,7 @@
 -------------------------*/
 
 body{
-	font-family: Raleway, Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
     font-size:16px;
     font-weight:300;
     color:white;
@@ -33,7 +33,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 }
 
 .big-text{
-    font-size:50px;
+    font-size:40px;
     font-weight:300;
     line-height:62px;
     letter-spacing:0.01em;
@@ -119,8 +119,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 ----- Buttons ------
 --------------------*/
 
-.btn-color1,
-.btn-color2{
+.btn-color1,.btn-color2{
     padding: 10px 30px;
     color: #fff;
     opacity: 0.9;
@@ -133,14 +132,39 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     transition: opacity .2s ease-out;
     border: 1px solid white;
     border-radius: 10px;
+    box-shadow:  0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
 }
 
-.btn-color1:hover,
-.btn-color2:hover{
+.btn-color {
+    color: #003459;
+    font-size: 14px;
+    font-weight: 300;
+    outline: none;
+}
+
+.btn-color1:hover{
     color: black;
     opacity: 0.9;
     background: white;
     outline: none;
+}
+
+.btn-color i, .btn-color1 i {
+    margin-right:5px;
+}
+
+.btn-color2:hover{
+    color: white;
+    opacity: 0.9;
+    background: #003459;
+    /* outline: none; */
+    transform: scale(0.99, 0.99);
+    box-shadow:3px 5px 10px rgba(0,0,0,0.3);
+}
+
+.btn-color2:hover::after{
+    opacity:1;
 }
 
 .btn-color1:focus,
@@ -150,7 +174,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     color:#fff;
 }
 
-.btn-color1 .fa,
+.btn-color .fa, .btn-color1 .fa,
 .btn-color2 .fa{
     margin-right: 15px;
 }
@@ -271,12 +295,10 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     transition: color .2s ease-in;
 }
 
-#main-nav .nav a:hover{
-    color: #6d6d6d;
-}
-
-#main-nav .navbar-brand:hover {
-    color: #6d6d6d;
+#main-nav .nav a:hover,
+#main-nav .navbar-brand:hover{
+    color: darkcyan;
+    font-weight: bold;
 }
 
 #main-nav.scrolled .nav a,
@@ -302,6 +324,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 #home{
     color: #fff;
     max-width: 100%;
+    background-size: contain;
 }
 
 .backstretch img{
@@ -374,27 +397,12 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     transition:all 0.2s ease-out;
     display: flex;
     justify-content: center;
-    flex-direction: row;
-    
+    flex-direction: row;  
 }
 
-.fa-js-square { 
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    font-size: 16vh;
-}
-
-.strong{
-    color:#dec439;
-}
-
-.fa-react {
-    color: aqua;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    font-size: 16vh;
+.react {
+    height: 125px;
+    margin-top: 15px;
 }
 
 .redux {
@@ -402,13 +410,13 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     margin-top: 15px;
 }
 
-.fa-node-js {
+/* .fa-node-js {
     color: #228c22;
     display: flex;
     justify-content: center;
     flex-direction: column;
     font-size: 16vh;
-}
+} */
 
 .php {
     height: 100px;
@@ -436,13 +444,18 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     margin-top: 15px;
 }
 
-.devicon-github-plain {
+.github {
+    height: 125px;
+    margin-top: 15px;
+}
+
+/* .devicon-github-plain {
     color: white;
     display: flex;
     justify-content: center;
     flex-direction: column;
     font-size: 16vh;
-}
+} */
 
 .postman {
     height: 125px;
@@ -459,7 +472,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 }
 
 svg {
-    width: 100px;
+    width: 120px;
 }
 
 /* 
@@ -494,12 +507,12 @@ svg {
     transition:none;
 }
 
-.service-item:hover [class*=fa]{
-    -webkit-transform:scale(1.3);
-    transform:scale(1.2);
+/* .service-item:hover [class*=fa]{
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
     -webkit-transition:all 0.4s ease-out;
-    transition:all 0.4s ease-out;
-}
+    transition:all 0.6s ease-out;
+} */
 
 .service-item p{
     margin: auto;
@@ -522,7 +535,12 @@ svg {
     /* height: 350px; */
     position: relative;
     top: 50px;
-    right: 50px;
+    /* right: 50px; */
+}
+
+.about {
+    font-size:15px;
+    font-weight:400;
 }
 /*-----------------------
 --- Skills Styles ----
@@ -592,7 +610,7 @@ svg {
 
 #portfolio{
     /* padding-top:70px; */
-    background:transparent;
+    background:rgba(0,0,0,0.6);;
     color:#fff;
     overflow: hidden;
     position: relative;
@@ -748,6 +766,8 @@ svg {
 
 
 .project-item .hover-mask {
+    display: flex;
+    flex-direction: column;
     position:absolute;
     padding:0;
     width:100%;
@@ -768,7 +788,7 @@ svg {
 
 .project-item .hover-mask .project-title {
     color:#fff;
-    margin:90px 0 0;
+    margin-top: 25%;
     padding:10px;
     font-size:26px;
     line-height:34px;
@@ -888,10 +908,18 @@ svg {
 }
 
 #project-title{
-    margin:60px 0 30px;
+    width: 50%;
+    margin:60px auto 30px;
     text-transform: uppercase;
+    text-align: center;
     letter-spacing: 0.02em;
     word-spacing: 0.15em;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+#project-content p {
+    text-align: center;
 }
 
 #project-preview p{
@@ -903,7 +931,7 @@ svg {
     padding:0 5px;
     right: -5px;
     top:-50px;
-    font-size: 44px;
+    font-size: 60px;
     line-height: 44px;
     cursor: pointer;
 }
@@ -1023,7 +1051,7 @@ svg {
 
 #contact-form .form-control:focus {
     background:#fff;
-    border-bottom:3px solid #003459;
+    border:1px solid #003459;
     outline:none;
     box-shadow:none;
     -webkit-transition:border-color .3s ease-in;
@@ -1131,9 +1159,9 @@ svg {
     display:block;
     color:#fff;
     color:rgba(255,255,255,0.3);
-    font-size:21px;
-    width:50px;
-    height:50px;
+    font-size:30px;
+    width:60px;
+    height:60px;
     line-height:50px;
     text-align:center;
     /* background: white; */
@@ -1141,22 +1169,28 @@ svg {
     border-radius:50%;
     -webkit-transition:all .3s ease-out;
     transition:all .3s ease-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
 #linkedin-link{
-background: #0077b5;
-color: white;
+    background: #0077b5;
+    color: white;
+    text-decoration: none;
 }
 
 #github-link {
     background: black;
     color: white;
+    text-decoration: none;
 }
 
 #resume-link {
     background: #dd4b39;
     color: white;
+    text-decoration: none;
     }
 
 #linkedin-link:hover, #resume-link:hover, #github-link:hover {
@@ -1332,7 +1366,6 @@ color: white;
 @media (max-width:991px){
     
     .big-text{
-        font-size:48px;
         line-height:52px;
         letter-spacing:0.01em;
         word-spacing: 0.15em;
@@ -1358,9 +1391,6 @@ color: white;
         margin-bottom: 20px;
     }
     
-    .project-item .hover-mask .project-title {
-        margin-top:75px;
-    }
     
     #project-slider{
         min-height:0;
@@ -1384,7 +1414,7 @@ color: white;
     }
     
     .big-text{
-        font-size:38px;
+        font-size:32px;
         line-height:42px;
     }
     
@@ -1504,6 +1534,7 @@ color: white;
     }
     
     #project-title{
+        width: 60%;
         font-size: 28px;
     }
     
@@ -1522,6 +1553,10 @@ color: white;
 }
 
 @media (max-width:479px){
+
+    body{
+        font-size: 14px;
+    }
     
     #projects-container .project-item{
         width:300px;
@@ -1531,5 +1566,100 @@ color: white;
     .project-item .hover-mask .project-title {
         margin-top:70px;
     }
+
+    #project-title{
+        width: 70%;
+        font-size: 24px;
+    }
+
+    #project-slider .flex-control-paging li a {
+        height: 12px;
+        width: 12px;
+    }
+
+    .btn-color1,
+    .btn-color2{
+        font-size: 14px;
+    }   
+
+    .service-item{
+        margin-bottom: 10px;
+    }
+
+    /* .service-icon img {
+        width: auto;
+    } */
+
+    .service-icon {
+        height: 130px;
+    }
+
+    .fa-js-square { 
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 16vh;
+    }
+    
+    .strong{
+        color:#dec439;
+    }
+    
+    .react {
+        height: 125px;
+        margin-top: 15px;
+    }
+    
+    .redux {
+        height: 110px;
+        margin-top: 15px;
+    }
+    
+    .service-item .service-icon .php {
+        height: 100px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .materialize {
+        height: 150px;
+        margin-top: 15px;
+    }
+    
+    .service-icon .mysql {
+        height: 65px;
+        margin-top: 40px;
+        width: 100%;
+    }
+    
+    .ajax {
+        height: 70px;
+        margin-top: 40px;
+    }
+    
+    .git {
+        height: 125px;
+        margin-top: 15px;
+    }
+    
+    .github {
+        height: 125px;
+        margin-top: 15px;
+    }
+
+    .postman {
+        height: 125px;
+        margin-top: 15px;
+    }
+    
+    .firebase {
+        height: 125px;
+        margin-top: 15px;
+    }
+
+    .materialize {
+        margin-top: 0;
+    }
+
 } 
 

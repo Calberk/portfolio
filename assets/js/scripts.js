@@ -15,7 +15,7 @@ $(document).ready(function() {
 	
 	$('#home').height($(window).height()+50);
 	
-	$.backstretch('assets/images/camera-coffee.jpg');
+	$.backstretch('assets/images/camera-coffee1.jpg');
 	
 	if($(window).scrollTop() > ($(window).height()+50)){
 		$('.backstretch').hide();
@@ -30,7 +30,7 @@ $(document).ready(function() {
 		
 		$('.backstretch img').css({ 
 			'transform' : 'scale('+sf+')', 
-			'-webkit-transform' : 'scale('+sf+')'
+			'-webkit-transform' : 'scale('+sf+')',
 		});
 		
 		$('#home .container').css({ 'opacity' : (1.4 - st/400) });
