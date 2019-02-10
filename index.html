@@ -141,7 +141,7 @@
 
 						<div class="text-center">
 								<a class="btn btn-color" href="https://github.com/Calberk" target="_blank"><i class="fab fa-github"></i>GitHub</a>
-							<a class="btn btn-color" href="./assets/pdf/Resume_Developer.pdf" target="_blank"><i class="fa fa-file-alt "></i>Resume</a>
+							<!-- <a class="btn btn-color" href="./assets/pdf/Resume_Developer.pdf" target="_blank"><i class="fa fa-file-alt "></i>Resume</a> -->
 						</div>
 					</div>
 				
@@ -289,26 +289,6 @@
 			<div class="container">
 				
 				<h1 class="section-title big-text scrollimation fade-up">SKILLS & TOOLS</h1>
-
-					<!-- ==== Portfolio Filters ==== -->
-					<!-- <div id="filter-works">
-						<ul>
-							<li class="active scrollimation fade-right d1">
-								<a href="#" data-filter="*">All</a>
-							</li>
-							<li class="scrollimation fade-right">
-								<a href="#" data-filter=".strong">Strong</a>
-							</li>
-							<li class="scrollimation fade-left">
-								<a href="#" data-filter=".experience">Experienced</a>
-							</li>
-							<li class="scrollimation fade-left d1">
-								<a href="#" data-filter=".tools">Tools</a>
-							</li>
-						</ul>
-					</div> -->
-					
-					<!-- End portfolio filters --> 
 				
 				<div class="row">
 				
@@ -320,7 +300,7 @@
 							</svg>
 						</div>
 						
-						<h3>Javscript</h3>
+						<h3>JavaScript</h3>
 					
 					</div>
 				
@@ -472,76 +452,6 @@
 		
 	</section>
 
-	
-		<!-- ==============================================
-		SKILLS
-		=============================================== -->
-		<!-- <section id="skills" class="add-padding border-bottom-color2">
-		
-			<div class="container">
-				
-				<div class="row">
-				
-					<div class="col-sm-6 col-md-5 text-right scrollimation fade-up d1">
-					
-						<h1 class="big-text">I got<br/>The skills </h1>
-						
-						<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt, dui ac porta.</p>
-					
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt, dui ac porta.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt, dui ac porta.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt, dui ac porta.</p>
-					
-					</div>
-				
-					<div class="col-sm-6 col-md-5 col-md-offset-1">
-					
-						<div class="skills-bars">
-						
-							<div class="skills-item skill1">
-								<span class="percent" data-percent="75">75%</span>
-								<p>Photoshop</p>
-							</div>
-							<div class="skills-item skill2">
-								<span class="percent" data-percent="70">70%</span>
-								<p>Illustrator</p>
-							</div>
-							<div class="skills-item skill3">
-								<span class="percent" data-percent="90">90%</span>
-								<p>HTML</p>
-							</div>
-							<div class="skills-item skill4">
-								<span class="percent" data-percent="60">60%</span>
-								<p>CSS</p>
-							</div>
-							
-						</div>
-					
-					</div>
-					
-				</div>
-				
-			</div>
-		
-		</section>
-			 -->
-
-		<!-- ==============================================
-		TWITTER
-		=============================================== -->
-		<!-- <section id="twitter" class="add-padding bg-color1">
-		
-			<div class="container">
-				<div class="row scrollimation fade-in">
-					<div class="col-sm-1 twitter-icon">
-						<i class="fa fa-twitter"></i>
-					</div>
-					<div class="col-sm-11">
-						<div id="twitter-slider" class="flexslider" data-widget-id="386017398488186880" data-tweets-length="3"></div>
-					</div>
-				</div>
-			</div>
-		
-		</section> -->
-			
 		<!-- ==============================================
 		CONTACT
 		=============================================== -->
@@ -572,7 +482,7 @@
 				
 					<!--=== Contact Form ===-->
 
-					<form id="contact-form" class="col-sm-6 col-md-offset-1 scrollimation fade-left d3" action="phpMailer/mail_handler.php" method="post" novalidate>
+					<form id="contact-form" class="col-sm-6 col-md-offset-1 scrollimation fade-left d3" action="phpMailer/noSpam_post.php" method="post" novalidate>
 						
 						<div class="form-group">
 						  <label class="control-label" for="contact-name">Name</label>
@@ -598,7 +508,7 @@
 							</div>
 						</div><!-- End textarea -->
 						
-						<p><button name="submit" type="submit" class="btn btn-color2 btn-block" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent"><i class="fa fa-paper-plane"></i>Send Message</button></p>
+						<p><button name="submit" id="emailSubmit" type="submit" class="btn btn-color2 btn-block" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent"><i class="fa fa-paper-plane"></i>Send Message</button></p>
 						<input type="hidden" name="submitted" id="submitted" value="true" />
 						
 					</form><!-- End contact-form -->
@@ -608,15 +518,6 @@
 			</div>
 		
 		</section>
-			
-		<!-- ==============================================
-		FIXED SIDE ICONS
-		=============================================== -->
-		<!-- <div class="icon-sidebar">
-			<a href="https://github.com/Calberk" target="_blank" id="github-link" title="GitHub"><i class="fab fa-github " style='font-size:24px'></i></a>
-			<a href="./assets/pdf/Resume_Developer.pdf" target="_blank" id="resume-link" title="Resume"><i class="fa fa-list-alt "></i></a>
-			<a href="https://www.linkedin.com/in/edmund-park-1a8538167/" target="_blank" id="linkedin-link" title="LinkedIn"><i class="fab fa-linkedin "></i></a>
-		</div> -->
 		
 		<!-- ==============================================
 		FOOTER
@@ -628,12 +529,10 @@
 			
 				<ul class="social-links text-center">
 					<li><a href="https://github.com/Calberk" target="_blank" id="github-link" title="GitHub"><i class="fab fa-github "></i></a></li>
-					<li><a href="./assets/pdf/Resume_Developer.pdf" target="_blank" id="resume-link" title="Resume"><i class="fa fa-file-alt"></i></a></li>
 					<li><a href="https://www.linkedin.com/in/edmundjpark/" target="_blank" id="linkedin-link" title="LinkedIn"><i class="fab fa-linkedin "></i></a></li>
 				</ul>
 			
 				<p class="text-center">&copy; Edmund Park 2018 - All rights reserved</p>
-				<!-- <p class="text-center"><a href="https://wrapbootstrap.com/user/qthemes" target="_blank">Made by Qthemes</a></p> -->
 			
 			</div>
 			
@@ -644,7 +543,6 @@
 		=============================================== -->	
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="assets/js/libs/jquery-1.9.1.min.js">\x3C/script>')</script>
-		
 		<script src="assets/js/libs/bootstrap.min.js"></script>
 		<script src="assets/js/jquery.scrollto.js"></script>
 		<script src="assets/js/waypoints.min.js"></script>
