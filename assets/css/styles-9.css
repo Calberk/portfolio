@@ -475,22 +475,6 @@ svg {
     width: 120px;
 }
 
-/* 
-.service-icon:after {
-    pointer-events:none;
-    content:"";
-    position:absolute;
-    display:block;
-    width:174px;
-    height:174px;
-    top:-12px;
-    left:-12px;
-    border:3px solid #334959;
-    border-radius:50%;
-    -webkit-transition:all 0.2s ease-out;
-    transition:all 0.2s ease-out;
-} */
-
 .no-csstransforms .service-icon:after{
 	display:none;
 }
@@ -506,14 +490,6 @@ svg {
     -webkit-transition:all 0.3s ease-out;
     transition:none;
 }
-
-/* .service-item:hover [class*=fa]{
-    -webkit-transform:scale(1.1);
-    transform:scale(1.1);
-    -webkit-transition:all 0.4s ease-out;
-    transition:all 0.6s ease-out;
-} */
-
 .service-item p{
     margin: auto;
     max-width: 250px;
@@ -524,18 +500,11 @@ svg {
 -------------------------*/
 
 .polaroid {
-    /* border:12px solid #fff;
-    max-width: 85%;
-    box-shadow: 3px 5px 8px rgba(0,0,0,0.5); */
-    /* -webkit-transform: rotate(-5deg); */
-    /* transform: rotate(-5deg); */
     box-shadow: 0 1px 28px rgba(0, 0, 0, 0.3), 0 0 40px rgba(128, 128, 128, 0.1) inset;
     border-color: #dedede;
     border-radius: 5px;
-    /* height: 350px; */
     position: relative;
     top: 50px;
-    /* right: 50px; */
 }
 
 .about {
@@ -647,18 +616,6 @@ svg {
 #filter-works ul li, #filter-portfolio ul li{
     display: none;
 }
-
-/* #filter-works ul li:after, #filter-portfolio ul li:after{
-    display:block;
-    content:'';
-    position:absolute;
-    top:22px;
-    right:-14px;
-    width:5px;
-    height:5px;
-    border-radius:50%;
-    background:#fff;
-} */
 
 #filter-works ul li:last-child:after{
     display:none;
@@ -863,29 +820,28 @@ svg {
 
 .masonry,
 .masonry .masonry-brick {
-  -webkit-transition-duration: 0.4s;
-     -moz-transition-duration: 0.4s;
-      -ms-transition-duration: 0.4s;
-       -o-transition-duration: 0.4s;
-          transition-duration: 0.4s;
-          
-   transition-timing-function:ease-in-out;    
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    -ms-transition-duration: 0.4s;
+    -o-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    transition-timing-function:ease-in-out;    
 }
 
 .masonry {
-  -webkit-transition-property: height, width;
-     -moz-transition-property: height, width;
-      -ms-transition-property: height, width;
-       -o-transition-property: height, width;
-          transition-property: height, width;
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -ms-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width;
 }
 
 .masonry .masonry-brick {
-  -webkit-transition-property: left, right, top, -webkit-transform, opacity;
-     -moz-transition-property: left, right, top, -moz-transform, opacity;
-      -ms-transition-property: left, right, top, -ms-transform, opacity;
-       -o-transition-property: left, right, top, -o-transform, opacity;
-          transition-property: left, right, top, transform, opacity;
+    -webkit-transition-property: left, right, top, -webkit-transform, opacity;
+    -moz-transition-property: left, right, top, -moz-transform, opacity;
+    -ms-transition-property: left, right, top, -ms-transform, opacity;
+    -o-transition-property: left, right, top, -o-transform, opacity;
+    transition-property: left, right, top, transform, opacity;
 }
 
 /*----------------------------
