@@ -1132,13 +1132,13 @@ svg {
 
 
 #linkedin-link{
-    background: #0077b5;
+    background: transparent;
     color: white;
     text-decoration: none;
 }
 
 #github-link {
-    background: black;
+    background: transparent;
     color: white;
     text-decoration: none;
 }
