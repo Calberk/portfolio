@@ -1038,10 +1038,14 @@ svg {
     font-size: 20px
 }
 
-.contact-info .lead {
+.contact-info .lead, .contact-info .lead-email {
     color: black;
     opacity: 0.6;
     font-weight: bold;
+}
+
+.lead-email {
+    text-decoration: underline;
 }
 
 .contact-info {
